@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>    
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="map" style=""><ymaps class="ymaps-2-1-74-map" style="width: 700px; height: 400px;"><ymaps class="ymaps-2-1-74-map ymaps-2-1-74-i-ua_js_yes ymaps-2-1-74-map-bg ymaps-2-1-74-islets_map-lang-ru" style="width: 700px; height: 400px;"><ymaps class="ymaps-2-1-74-inner-panes"><ymaps class="ymaps-2-1-74-events-pane ymaps-2-1-74-user-selection-none" unselectable="on" style="height: 100%; width: 100%; top: 0px; left: 0px; position: absolute; z-index: 2500; cursor: url(&quot;https://api-maps.yandex.ru/2.1.74/build/release/images/cursor/grab.cur&quot;) 16 16, url(&quot;https://api-maps.yandex.ru/2.1.74/build/release/images/cursor/grab.cur&quot;), move;"></ymaps><ymaps class="ymaps-2-1-74-ground-pane" style="top: 0px; left: 0px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 501;"><ymaps style="z-index: 150; position: absolute;"><canvas height="656" width="956" style="position: absolute; width: 956px; height: 656px; left: -128px; top: -128px;"></canvas></ymaps><ymaps style="z-index: 150; position: absolute;"><canvas height="656" width="956" style="position: absolute; width: 956px; height: 656px; left: -128px; top: -128px;"></canvas></ymaps></ymaps><ymaps class="ymaps-2-1-74-copyrights-pane" style="height: 0px; bottom: 0px; right: 0px; top: auto; left: 0px; position: absolute; z-index: 5002;"><ymaps><ymaps class="ymaps-2-1-74-copyright ymaps-2-1-74-copyright_color_white ymaps-2-1-74-copyright_logo_no" style=""><ymaps class="ymaps-2-1-74-copyright__fog">…</ymaps><ymaps class="ymaps-2-1-74-copyright__wrap"><ymaps class="ymaps-2-1-74-copyright__layout"><ymaps class="ymaps-2-1-74-copyright__content-cell"><ymaps class="ymaps-2-1-74-copyright__content"><ymaps class="ymaps-2-1-74-copyright__text">©&nbsp;Earthstar Geographics, ©&nbsp;ООО ИТЦ «СКАНЭКС», ©&nbsp;NASA, © Яндекс</ymaps><ymaps class="ymaps-2-1-74-copyright__agreement">&nbsp;<a class="ymaps-2-1-74-copyright__link" target="_blank" href="https://yandex.ru/legal/maps_termsofuse/?lang=ru">Условия использования</a></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-copyright__logo-cell"><a class="ymaps-2-1-74-copyright__logo" href="" target="_blank"></a></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-map-copyrights-promo"><iframe src="https://api-maps.yandex.ru/services/inception/?lang=ru_RU&amp;iframe_id=9882&amp;url=%2Fmap&amp;api_version=2.1.74&amp;mode=release&amp;referer_host=lenmgt.ru&amp;data=%7B%22mapState%22%3A%7B%22origin%22%3A%22jsapi_2_1_74%22%2C%22source%22%3A%22api-maps%22%2C%22from%22%3A%22api-maps%22%2C%22host%22%3A%22lenmgt.ru%22%7D%2C%22options%22%3A%7B%22padding%22%3A%220%200%208px%208px%22%7D%2C%22availWidth%22%3A481%7D" width="0" height="0" scrolling="no" frameborder="0" style="overflow: hidden; width: 142px !important; max-width: 142px !important; min-width: 142px !important; height: 34px !important; max-height: 34px !important; min-height: 34px !important;"></iframe></ymaps></ymaps><ymaps class="ymaps-2-1-74-controls-pane" style="width: 100%; top: 0px; left: 0px; position: absolute; z-index: 4503;"><ymaps class="ymaps-2-1-74-controls__toolbar" style="margin-top: 10px;"><ymaps class="ymaps-2-1-74-controls__toolbar_left"><ymaps class="ymaps-2-1-74-controls__control_toolbar ymaps-2-1-74-user-selection-none" unselectable="on" style="margin-right: 0px; margin-left: 10px; position: inherit;"><ymaps><ymaps class="ymaps-2-1-74-float-button ymaps-2-1-74-_hidden-text" style="max-width: 90px" title="Определить ваше местоположение"><ymaps class="ymaps-2-1-74-float-button-icon ymaps-2-1-74-float-button-icon_icon_geolocation"></ymaps><ymaps class="ymaps-2-1-74-float-button-text"></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-controls__control_toolbar ymaps-2-1-74-user-selection-none" unselectable="on" style="margin-right: 0px; margin-left: 10px; position: inherit;"><ymaps><ymaps class="ymaps-2-1-74-float-button ymaps-2-1-74-_hidden-text" style="max-width: 28px" title=""><ymaps class="ymaps-2-1-74-float-button-icon ymaps-2-1-74-float-button-icon_icon_routes"></ymaps><ymaps class="ymaps-2-1-74-float-button-text"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-controls__toolbar_right"><ymaps class="ymaps-2-1-74-controls__control_toolbar ymaps-2-1-74-user-selection-none" unselectable="on" style="margin-right: 10px; margin-left: 0px; position: inherit;"><ymaps><ymaps class="ymaps-2-1-74-float-button ymaps-2-1-74-_hidden-text" style="max-width: 28px" title=""><ymaps class="ymaps-2-1-74-float-button-icon ymaps-2-1-74-float-button-icon_icon_expand"></ymaps><ymaps class="ymaps-2-1-74-float-button-text"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-controls__bottom" style="top: 400px;"></ymaps><ymaps class="ymaps-2-1-74-controls__control" style="margin-right: 0px; margin-left: 0px; position: inherit; bottom: auto; top: 108px; right: auto; left: 10px;"><ymaps><ymaps class="ymaps-2-1-74-zoom" style="height: 150px"><ymaps class="ymaps-2-1-74-zoom__plus ymaps-2-1-74-zoom__button ymaps-2-1-74-float-button ymaps-2-1-74-user-selection-none" unselectable="on"><ymaps class="ymaps-2-1-74-zoom__icon ymaps-2-1-74-float-button-icon"></ymaps></ymaps><ymaps class="ymaps-2-1-74-zoom__minus ymaps-2-1-74-zoom__button ymaps-2-1-74-float-button ymaps-2-1-74-user-selection-none" unselectable="on"><ymaps class="ymaps-2-1-74-zoom__icon ymaps-2-1-74-float-button-icon"></ymaps></ymaps><ymaps class="ymaps-2-1-74-zoom__scale"><ymaps class="ymaps-2-1-74-zoom__runner ymaps-2-1-74-zoom__button ymaps-2-1-74-float-button ymaps-2-1-74-zoom__runner__transition ymaps-2-1-74-touch-action-none ymaps-2-1-74-user-selection-none" unselectable="on" style="top: 119px;"><ymaps class="ymaps-2-1-74-zoom__icon ymaps-2-1-74-float-button-icon ymaps-2-1-74-float-button-icon_icon_runner"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-places-pane" style="top: 0px; left: 0px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 2004;"><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 178px; top: 302px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219952"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 170px; top: 249px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219958"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 150px; top: 226px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219960"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 373px; top: 248px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219962"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 150px; top: 226px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219964"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-74-placemark-overlay ymaps-2-1-74-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 150px; top: 226px;"><ymaps><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption"><ymaps class="ymaps-2-1-74-islets_circle-dot-icon-with-caption__caption-block"><ymaps class="ymaps-2-1-74-islets_icon-caption" style="padding: 0px; max-width: 0px;"></ymaps></ymaps><ymaps id="id_156443228054157219966"><ymaps class="ymaps-2-1-74-svg-icon ymaps_https___api_maps_yandex_ru_2_1_74_1387173262387islands_circleDotIcon___333__333_27x27_1564432563334" style="position: absolute; width: 27px; height: 27px; left: -14px; top: -14px;"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></div>
+
+    <script>
+        var yMap,
+            yProjects=new Array();
+    
+        ymaps.ready(function(){
+            setTimeout(ymapready,200);
+        });
+        function recenter(){
+            yMap.panTo([64.140832,100.417464],{duration:600}).then(function(){
+                yMap.setZoom(2,{duration:600});
+            });
+        }
+        function ymapready(){
+             yMap = new ymaps.Map("map", {
+                center: [64.140832,100.417464], 
+                zoom: 2,            
+                controls: [
+                    "geolocationControl", 
+                    "routeEditor", 
+                    "fullscreenControl", 
+                    "zoomControl", 
+                    "fullscreenControl"
+                ],
+                type:"yandex#hybrid"
+            });
+            yMap.behaviors.disable('scrollZoom');
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([43.442328, 39.912308], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/01/47_13_146971186297_tb.jpg"><a href="/projects/traffic-tunnels/item-47/">Железнодорожная линия ст. Адлер - остановочный комплекс &quot;Аэропорт Сочи&quot; Северо-Кавказской железной дороги &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([55.641501, 37.348309], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/01/41_13_14068074886897_tb.jpg"><a href="/projects/metro/item-41/">Калининско-Солнцевская линия Московского метрополитена от ст. &quot;Очаково&quot; до ст. &quot;Новопеределкино&quot; &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([59.92579,30.297039], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/00/24_13_14068038687019_tb.jpg"><a href="/projects/spb-subway/item-24/">Строительство Лахтинско-Правобережной линии от станции «Спасская» до станции «Театральная» &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([55.754206,108.746225], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/00/20_13_14060377600956_tb.jpg"><a href="/projects/traffic-tunnels/item-20/">Новый Байкальский тоннель на перегоне Дельбичинда-Дабан Восточно-Сибирской железной дороги &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([59.948375,30.282581], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/00/17_13_14333438208_tb.jpg"><a href="/projects/spb-subway/item-17/">Второй вестибюль станции &quot;Спортивная&quot; &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+            yProjects.push(
+                new ymaps.Placemark([59.927068,30.319946], { 
+                                balloonContent: '<div class="ymapinfo"><img src="/pictures/catalog/00/00/00/16_13_14060328818491_tb.jpg"><a href="/projects/spb-subway/item-16/">Станция &quot;Спасская&quot; &nbsp;&nbsp;<span class="more">подробнее</span></a></div>',
+                                balloonCloseButton: true,
+                                hideIconOnBalloonOpen: true
+                            },{
+                                preset: "islands#circleDotIcon",
+                                iconColor :'#333'
+                            })
+                );
+    
+    
+    
+        for (i=0;i<yProjects.length;i++){
+            yMap.geoObjects.add(yProjects[i]);
+            }
+        }// ymapready
+        
+    
+    </script>
+    
+</body>
+</html>
